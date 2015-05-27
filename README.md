@@ -72,26 +72,32 @@ Ruby on Rails のツール名（Migration）から派生
 
      $ goose create create_shop sql
 
+![maigration](https://github.com/tecoWorkshop/db_migration/blob/images/goose_migrate.png)
 
 #### マイグレーション適用
 
      $ goose up
+
+![up](https://github.com/tecoWorkshop/db_migration/blob/images/goose_up.png)
 
 
 #### 状態の確認
 
      $ goose status
 
+![status](https://github.com/tecoWorkshop/db_migration/blob/images/goose_status.png)
 
 
 #### ロールバック
 
      $ goose down
 
+![down](https://github.com/tecoWorkshop/db_migration/blob/images/goose_down.png)
 
 
 #### バージョン管理用テーブル
 
+![db_version](https://github.com/tecoWorkshop/db_migration/blob/images/goose_db_version.png)
 
 
 
