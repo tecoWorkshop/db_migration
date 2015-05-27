@@ -1,4 +1,4 @@
-# db_migration
+# DB Migration
 
 ## DB スキーマを管理する方法
 
